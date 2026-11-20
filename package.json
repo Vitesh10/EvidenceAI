@@ -1,0 +1,24 @@
+{
+  "name": "evidence-ai",
+  "version": "1.0.0",
+  "description": "Evidence Ai - AI-Powered Digital Evidence Management System - MIT-ADT University B.Tech Capstone Project",
+  "scripts": {
+    "start": "node start-all.js",
+    "dev": "node start-all.js",
+    "server": "npm --prefix server start",
+    "client": "npm --prefix client dev",
+    "build:client": "npm --prefix client run build",
+    "ai:test": "python ai_service.py"
+  },
+  "keywords": [
+    "evidence-ai",
+    "digital-evidence",
+    "chain-of-custody",
+    "sha-256",
+    "yolov8",
+    "forensics",
+    "bsa-2023"
+  ],
+  "author": "Vitesh Dongre, Sakshi Mashere, Swayam Lase (Guided by Dr. Sachin Jagadale)",
+  "license": "ISC"
+}

@@ -1,0 +1,41 @@
+# Dependencies
+node_modules/
+client/node_modules/
+server/node_modules/
+
+# Production builds
+dist/
+client/dist/
+dist-ssr/
+client/dist-ssr/
+
+# Environment and sensitive keys
+.env
+.env.local
+.env.*.local
+server/.env
+server/.env.local
+
+# Large or temporary evidence uploads
+uploads/*
+!uploads/.gitkeep
+!uploads/cctv_footage.jpg
+server/uploads/*
+!server/uploads/.gitkeep
+
+# Logs and debug
+*.log
+npm-debug.log*
+yarn-debug.log*
+pnpm-debug.log*
+
+# Editor & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
