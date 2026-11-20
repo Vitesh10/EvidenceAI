@@ -1,24 +1,15 @@
 # Evidence Ai: AI-Powered Digital Evidence Management System
 
-### MIT School of Computing, MIT-ADT University, Pune
-**Bachelor of Technology (Computer Science & Engineering)**  
-**Academic Year:** 2025–26  
-**Project Group:** BCC117  
-- **Vitesh Dongre** (ADT23SOCB0383)
-- **Sakshi Mashere** (ADT23SOCB0941)
-- **Swayam Lase** (ADT23SOCB1195)
-- **Faculty Guide:** Dr. Sachin Jagadale
 
----
 
-## 📌 Project Overview
+##  Project Overview
 **Evidence Ai** is a centralized, forensically sound, and AI-assisted digital evidence management system. It solves the critical national challenges of fragmented evidence storage, chain-of-custody gaps, missing/altered CCTV footage, and exhausting manual video reviews in Indian criminal investigations.
 
 The system is fully compliant with modern Indian criminal jurisprudence under the **Bharatiya Sakshya Adhiniyam, 2023 (BSA)** and **Bharatiya Nagarik Suraksha Sanhita, 2023 (BNSS)**.
 
 ---
 
-## ⚡ How to Run in VS Code (Simple 1-Command Startup)
+##  How to Run in VS Code (Simple 1-Command Startup)
 
 ### Method A: Single Command in VS Code Terminal (Recommended)
 Open VS Code in `C:\Users\hp\EvidenceAI` and run:
@@ -49,7 +40,7 @@ Then open your browser at: **`http://localhost:5173`**
 
 ---
 
-## 🔐 Role Authentication & Credentials (Session-Locked)
+##  Role Authentication & Credentials (Session-Locked)
 
 Evidence Ai enforces strict **Single-Role Authentication**. Each agency role has its own dedicated official Gmail address and password. Once authenticated, the active session is **cryptographically locked to that role** and cannot be switched from the dashboard without clicking **Logout**.
 
@@ -62,7 +53,7 @@ Evidence Ai enforces strict **Single-Role Authentication**. Each agency role has
 
 ---
 
-## 🚀 Key Modules & Engineering Features
+##  Key Modules & Engineering Features
 
 ### 1. Single-Entry Role Authentication (RBAC)
 - Unified login form with 1-click Role Selector tabs.
@@ -89,7 +80,7 @@ Evidence Ai enforces strict **Single-Role Authentication**. Each agency role has
 
 ---
 
-## 🛠️ Technology Stack
+##  Technology Stack
 - **Frontend:** React.js 19, Vite, Lucide-react, Custom Glassmorphism Dark UI
 - **Backend:** Node.js, Express.js 5, Mongoose, Multer, Crypto (AES-256-GCM & SHA-256), JSON Web Tokens (JWT)
 - **Database:** MongoDB (Supports MongoDB Atlas with automatic fallback to in-process MongoMemoryServer for 100% offline reliability)
