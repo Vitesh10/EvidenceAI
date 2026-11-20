@@ -1,14 +1,11 @@
 @echo off
 title Push Evidence Ai to GitHub
+set "PATH=C:\Users\hp\.cache\codex-runtimes\codex-primary-runtime\dependencies\native\git\cmd;%PATH%"
+
 echo ======================================================================
 echo   EVIDENCE AI: PUSH TO GITHUB REPOSITORY
 echo   Target: https://github.com/Vitesh10/EvidenceAI
 echo ======================================================================
-echo.
-echo Make sure you have created the empty repository on GitHub first:
-echo   https://github.com/new  (Name: EvidenceAI)
-echo.
-echo Executing git push -u origin main ...
 echo.
 
 git push -u origin main
@@ -22,11 +19,7 @@ if %ERRORLEVEL% EQU 0 (
 ) else (
     echo.
     echo ======================================================================
-    echo [ACTION NEEDED] Push did not complete. Common reasons:
-    echo 1. The repository 'EvidenceAI' is not yet created on GitHub.
-    echo    -^> Create it at: https://github.com/new  (Repository name: EvidenceAI)
-    echo    -^> Do NOT check "Initialize with README" or .gitignore.
-    echo 2. Authentication: Sign in when the GitHub browser prompt appears.
+    echo [NOTE] If GitHub asks for sign-in or token, enter your credentials.
     echo ======================================================================
 )
 echo.
